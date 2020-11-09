@@ -66,18 +66,22 @@ padding: 5px;
 margin-bottom: 20px;
 }
 
+/* SCRITTE COLONNA SINISTRA */
 aside.col-sx p{
   margin-top: 10px;
 }
 
+/* TITOLO CENTRO */
 section.colmain h3{
   padding: 20px 0 40px;
 }
 
+/* TITOLO DESTRO */
 aside.col-dx h3{
   padding: 10px 0 20px;
 }
 
+/* SCRITTA FOOTER */
 div.footer-top{
   height: 20%;
   text-align: center;
