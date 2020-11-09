@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body{
+  background-image: url('../img/foglie.jpg');
+  background-size: cover;
+}
+
+.container{
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+}
+
+header{
+  background-color: green;
+  height: 20vh;
+}
+
+main{
+  height: 70vh;
+  margin: 10px 0;
+}
+
+footer{
+  background-color: rgb(154, 235, 174);
+  height: 10vh;
+}
+
+aside.col-sx{
+background-color: rgb(154, 235, 174);
+width: calc(25% - 10px);
+margin-right: 20px;
+padding: 5px;
+}
+
+section.colmain{
+background-color: rgb(154, 235, 174);
+width: calc(50% - 20px);
+padding: 10px;
+}
+
+aside.col-dx{
+background-color: rgb(154, 235, 174);
+height: 30%;
+width: calc(25% - 10px);
+padding: 5px;
+margin-bottom: 20px;
+}
+
+aside.col-sx p{
+  margin-top: 10px;
+}
+
+section.colmain h3{
+  padding: 20px 0 40px;
+}
+
+aside.col-dx h3{
+  padding: 10px 0 20px;
+}
+
+div.footer-top{
+  height: 20%;
+  text-align: center;
+  border-bottom: 2px solid grey;
+}
+
+div.social{
+  height: 80%;
+  width: calc(100% / 3);
+  float: left;
+}
+
+div.icon{
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fb{
+  background-image: url('../img/fbicon.png');
+}
+
+.insta{
+  background-image: url('../img/instaicon.png');
+}
+
+.git{
+  background-image: url('../img/giticon.jpg');
+}
