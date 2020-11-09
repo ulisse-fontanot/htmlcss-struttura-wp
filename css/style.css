@@ -31,39 +31,72 @@ body{
 }
 
 header{
-  background-color: green;
+  background-color: rgba(0, 0, 0, 0.86);
   height: 20vh;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.foresta{
+  background-image: url('../img/foresta.jpg');
+  background-size: cover;
 }
 
 main{
-  height: 70vh;
   margin: 10px 0;
 }
 
 footer{
   background-color: rgb(154, 235, 174);
   height: 10vh;
+  border: 5px solid white;
+  border-radius: 5px;
+  bottom: 0;
 }
 
+/* COLONNA SINISTRA */
 aside.col-sx{
 background-color: rgb(154, 235, 174);
 width: calc(25% - 10px);
 margin-right: 20px;
 padding: 5px;
+border: 5px solid white;
+border-radius: 5px;
 }
 
+/* COLONNA CENTRALE */
 section.colmain{
 background-color: rgb(154, 235, 174);
 width: calc(50% - 20px);
 padding: 10px;
+border: 5px solid white;
+border-radius: 5px;
 }
 
+/* COLONNE DESTRA */
 aside.col-dx{
 background-color: rgb(154, 235, 174);
-height: 30%;
 width: calc(25% - 10px);
 padding: 5px;
 margin-bottom: 20px;
+border: 5px solid white;
+border-radius: 5px;
+}
+
+/* TITOLONE HEADER */
+.titolone{
+  position: relative;
+  border: 5px solid black;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* TITOLONE HEADER */
+.titolino{
+  text-align: center;
+  top: 20%;
 }
 
 /* SCRITTE COLONNA SINISTRA */
